@@ -1,0 +1,88 @@
+html {
+  background-color: #272822;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.35;
+  font-family: 'Menlo';
+  font-size: 14px;
+  color: #f8f8f2;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: #66d9ef;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 0.5rem;
+  padding: 0;
+}
+
+.line {
+  margin: 0;
+  padding: 0;
+}
+
+.time {
+  color: #49483e;
+}
+
+.place {
+  color: #ae81ff;
+}
+
+.address {
+  text-decoration: none;
+}
+
+.highlight {
+  font-weight: normal;
+  color: #fd971f;
+}
+
+.sender[type=myself] {
+  color: #a6e22e;
+}
+.sender[type=normal] {
+  color: #e6db74;
+}
+
+.message[type=system],
+.message[type=reply],
+.message[type=notice],
+.message[type=topic],
+.message[type=join],
+.message[type=nick],
+.message[type=part],
+.message[type=quit],
+.message[type=kill],
+.message[type=dcc_send_send],
+.message[type=dcc_send_receive],
+.message[type=debug_send],
+.message[type=debug_receive] {
+  color: #75715e;
+}
+.message[type=action] {
+  color: #f8f8f2;
+}
+.message[type=error] {
+  font-weight: normal;
+  color: #f92672;
+}
+.message[type=error_reply],
+.message[type=mode],
+.message[type=kick],
+.message[type=wallops] {
+  color: #f92672;
+}
+.message[type=invite] {
+  color: #ae81ff;
+}
